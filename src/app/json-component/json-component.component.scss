@@ -1,0 +1,36 @@
+// #myClass  {
+//     border: 1px solid black !important;
+//     color: red;
+
+// }
+
+.myClass {
+    color : red;
+}
+
+// :host ::ng-deep #myClass{
+//     border: 1px solid grey;
+//     border-collapse: collapse;
+//     padding: 5px;
+// }
+:host ::ng-deep input {
+  margin: 8px;
+}
+:host ::ng-deep table  {
+  margin-top: 16px;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+  }
+
+:host ::ng-deep td  {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+  }
+:host ::ng-deep th  {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+  }
+// :host ::ng-deep 
